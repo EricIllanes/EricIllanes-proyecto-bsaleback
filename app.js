@@ -1,10 +1,10 @@
-
+require("dotenv").config();
 const cors = require("cors");
 const express = require("express");
 const app = express();
 const routes = require("./routes");
 const cookieParser = require("cookie-parser");
-
+const {PORT} = process.env;
 const morgan = require("morgan");
 
 app.use(cors());
@@ -23,8 +23,9 @@ app.use((req, res, next) => {
   next();
 });
 
+
 app.use(routes);
 
-app.listen(80, () => {
+app.listen(PORT || 80, () => {
   console.log("Server listening :)");
 });
