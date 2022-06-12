@@ -27,7 +27,7 @@ let corsOptions = {
   origin: "*",
   optionsSuccessStatus: 200,
 };
-console.log(222, URL):
+console.log(222, URL);
 app.use(cors(corsOptions));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
