@@ -1,0 +1,27 @@
+{
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "node": true,
+      "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": "latest"
+    },
+    "rules": {
+      "camelcase": "off",
+      "template-curly-spacing": "off",
+    //   "comma-dangle": ["error", "always-multiline"],
+      "semi":"error",
+      "indent": [
+        "error",
+        2,
+        {
+          "ignoredNodes": [
+            "TemplateLiteral"
+          ]
+        }
+      ]
+    }
+  }
