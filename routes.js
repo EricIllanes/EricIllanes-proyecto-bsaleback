@@ -4,6 +4,7 @@ const { Router } = require("express");
 const { Op } = require("sequelize");
 const router = Router();
 
+
 //ROUTES PRODUCTS
 router.get("/product", async (req, res) => {
   try {
@@ -47,6 +48,7 @@ router.get("/productsearch", async (req, res) => {
     return res.status(500).json({ msg: error.message });
   }
 });
+
 //ROUTES CATEGORY
 router.get("/category", async (req, res) => {
   try {
