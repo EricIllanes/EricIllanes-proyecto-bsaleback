@@ -12,7 +12,7 @@ Rutas:
 bsaletest-back.herokuapp.com/product
 ```
 
--Respuesta de servidor:
+- Respuesta de servidor:
 
 
 ```
@@ -41,11 +41,11 @@ bsaletest-back.herokuapp.com/product
 {...}
 ]
 ```
-*GET PRODUCT BY NAME:
+* GET PRODUCT BY NAME:
 ```
 bsaletest-back.herokuapp.com/productsearch?name=
 ```
--Respuesta del servidor (ejemplo búsqueda "fanta"):
+- Respuesta del servidor (ejemplo búsqueda "fanta"):
 ```
 [
 {
@@ -66,7 +66,7 @@ bsaletest-back.herokuapp.com/productsearch?name=
 ```
 bsaletest-back.herokuapp.com/category
 ```
--Respuesta del servidor:
+- Respuesta del servidor:
 ```
 [
 "bebida energetica",
@@ -80,7 +80,7 @@ bsaletest-back.herokuapp.com/category
 ```
 
 ```
-    LINK ASOCIADOS
+LINK ASOCIADOS
 ```
 * Puede probar el deploy (hecho con vercel y heroku) acá: 
     - FrontEnd: https://frontend-bsale-j1xi2njn4-ericillanes.vercel.app/
